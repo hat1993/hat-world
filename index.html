@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio Hatem</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+      <link href="css/style.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header class="container-fluid">
+        
+        <nav class="navbar navbar-expand-sm bg-danger navbar-shrink navbar-dark fixed-top ">
+            
+            <span class="navbar-brand mb-0 h1"><img src="img/ana.jpg" class="rounded-circle img-responsive  " width="30px" height="30px">  Hatem Portfolio</span>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto" id="menu">
+              <li class="nav-item">
+                  <a class="nav-link" href="#acc">Banniére</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#prop">A propos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#port">Réalisation</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#cont">Contact</a>
+              </li>
+           </ul>
+            </div>
+           
+        </nav>
+    </header>
+    <section class="container-fluid acceuil" id="acc">
+            <div class="mon">
+                <img src="img/ana.jpg" class="rounded-circle img-fluid img-thumbnail moi" >
+                <h3>Developpeur Web et Mobile</h3>
+                <h1 > Bienvenue sur mon Portfolio</h1>
+                
+                <a href="cv/hatem%20cv%202017_2.pdf" target="_blank" class="btn btn-outline-warning btn-lg" >Télecharger Mon cv</a>
+                <button class="  btn btn-outline-warning btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg"   >Contacter moi </button>
+                <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                                <form class="container-fluid" id="con" novalidate>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label  class="lab" for="nom">Nom</label>
+                                            <input type="text" class="form-control" id="nom" placeholder="Nom"  required>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label class="lab" for="prenom">Prénom</label>
+                                            <input type="text" class="form-control" id="prenom" placeholder="Prénom"  required>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label class="lab" for="mail">E-mail</label>
+                                            <input type="text" class="form-control" id="mail" placeholder="aaaa@aaaa.aaa"  required>
+                                            <div class="invalid-feedback">votre e-mail est incorrecte</div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <label class="lab" for="telephone">telephone</label>
+                                            <input type="text" class="form-control" id="phone" placeholder="telephone" required>
+                                            <div class="invalid-feedback">votre numéro de telephone est incorrecte</div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label class="lab" for="mail">Description</label>
+                                            <textarea  class="form-control" id="des" placeholder="......."  required></textarea>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-info" type="submit">Envoyer</button>
+                               </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="container-fluid propos" id="prop" >
+        <h3 class="text-center"> A propos </h3>
+        <hr class="ligne">
+        <div class="row">
+            <article class="offset-lg-1 col-lg-3 offset-md-1  col-md-3 col-sm-12 col-12" id="etude"><h4 class="text-danger">Etude</h4>
+                <div  class="icon">
+                    <img src="img/icon/etude.png" class="img-fluid moi">
+                </div>
+                <ul  class="text-secondary">
+                    <li><h6 class="text-dark">2017  ISIE GROMBALIA  Agent d’inscription</h6>  
+                        Effectuer l’inscription des citoyens</li>
+
+                    <li><h6 class="text-dark">2016 Laboratoires Médis  (Stagiaire)</h6> 
+                        Stage PFE :mise en place d’une plateforme BI</li>
+                </ul>
+            </article>
+            <article class=" col-lg-4  col-md-4  col-sm-12 col-12" id="experience"><h4 class="text-danger">Experience</h4>
+                <div  class="icon">
+                    <img src="img/icon/work.png" class="img-fluid moi">
+                </div>
+                <ul  class="text-secondary">
+                    <li><h6 class="text-dark">2012 – 2016 FSEG Nabeul</h6>
+                       •License appliquée en informatique appliquée à la gestion(assez bien)
+                    </li> 
+                    <li><h6 class="text-dark">2007 - 2011 Lycée béni Khalled</h6>
+                       •Baccalauréat informatique(assez bien)
+                    </li> 
+                </ul>
+            </article>
+            <article class=" col-lg-3  col-md-3 col-sm-12 col-12" id="loisire"><h4 class="text-danger">Loisire</h4>
+                <div  class="icon">
+                    <img src="img/icon/loi.png" class="img-fluid moi">
+                </div>
+                <ul  class="text-black">
+                    <li>Sport :(football/tennis/natation)</li>
+                    <li>Voyage</li>
+                    <li>Gaming</li>
+                    <li>coding</li> 
+                </ul>
+            </article>
+        </div>
+    </section>
+    <section class="container-fluid pause"></section>
+    <section class="container-fluid portfolio" id="port">
+        <h3 class="text-center">Mes Réalisation</h3>
+        <hr class="ligne">
+        <div class="row align-items-center  ">
+            <div id="carousel1" class="carousel slide container" data-ride="carousel">
+                <ol class="carousel-indicators  ">
+                   <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                   <li data-target="#carousel1" data-slide-to="1"></li>
+                   <li data-target="#carousel1" data-slide-to="2"></li>
+                    <li data-target="#carousel1" data-slide-to="3"></li>
+                </ol>
+            <div class="carousel-inner">
+                <div class="container">
+                <div class="carousel-item active">
+                     <img class="d-block w-100  img-thumbnail img-fluid moi" src="img/11.jpg" alt="First slide">
+                     <div class="carousel-caption d-none d-md-block bg-dark text-white">
+                         <h3>www.hatem-benothman.ena</h3>
+                         <p>le meilleur des meilleurs </p>
+                     </div>
+                </div>
+                <div class="carousel-item">
+                     <img class="d-block w-100  img-thumbnail img-fluid moi"src="img/2.jpg" alt="Second slide">
+                     <div class="carousel-caption d-none d-md-block bg-dark text-white">
+                         <h3>www.taraji-dawla.com</h3>
+                         <p>a9wa jam3ya il dawla tarajia</p>
+                     </div>
+                </div>
+                <div class="carousel-item">
+                     <img class="d-block w-100  img-thumbnail   img-fluid moi" src="img/3.jpg" alt="Third slide">
+                     <div class="carousel-caption d-none d-md-block bg-dark text-white">
+                         <h3>hat93.est1919@gmail.com</h3>
+                         <p>Mon boite email</p>
+                     </div>
+                </div>
+                <div class="carousel-item">
+                     <img class="d-block w-100  img-thumbnail   img-fluid moi" src="img/4.jpg" alt="fourth slide">
+                     <div class="carousel-caption d-none d-md-block bg-dark text-white">
+                         <h3>www.hatem-20566888.com</h3>
+                         <p>mon premier site web</p>
+                     </div>
+                </div>
+             </div>
+            </div>
+                <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next " href="#carousel1" role="button" data-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                </a>
+           </div>
+        </div>  
+    </section>
+    <section class="container-fluid contact" id="cont">
+        <h3 class="text-center text-secondary"> Contact </h3>
+        <hr class="ligne">
+            <div class="row align-items-center">
+                <div class=" offset-lg-1 col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                    <ul>
+                        <li  ><a class="text-muted" href="https://www.facebook.com/hatem.benothman" target="_blank"><img src="img/icon/fb.png" width="25px" height="25px"> Facebook</a></li>
+                        <li><a class="text-muted" href="https://plus.google.com/113297900940150045967?hl=fr" target="_blank"><img src="img/icon/gl.png" width="25px" height="25px"> google</a></li>
+                        <li><a class="text-muted" href="https://twitter.com/c29e74959281461" target="_blank"><img src="img/icon/twi.png" width="25px" height="25px"> Twiter</a></li>
+                        <li><a class="text-muted" href="https://www.instagram.com/hatem.benothman/" target="_blank"><img src="img/icon/inst.png" width="25px" height="25px"> Instagram</a></li>
+                        <li><a class="text-muted" href="https://www.youtube.com/channel/UCrNjF-XHRHyFF05XuC9XnIQ?view_as=subscriber" target="_blank"><img src="img/icon/yt.png" width="25px" height="25px"> Youtube</a></li>
+                        <li><a class="text-muted" href="https://www.linkedin.com/in/hatem-benothman-743179124/" target="_blank"><img src="img/icon/link.png" width="25px" height="25px"> Linkedin</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    
+                    <ul   class="text-secondary" >
+                        <li><h3> Mes coordonnées</h3> </li>
+                        <li><strong>Adresse :</strong>5 Rue Sidi Abdallah, 8021 Beni Khalled,Nabeul</li>
+                        <li><strong>Tel :</strong>(+216)20 566 888</li>
+                        <li><strong>E-mail : </strong>hat93.est1919@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+    <footer class="container-fluid">
+        <p>Copyright © 2017 hat-freelance.com  All rights reserved</p>
+    </footer>
+</body>
+</html>
